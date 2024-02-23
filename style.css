@@ -14,7 +14,7 @@
   background-size: cover;
   color: white;
   padding-top: 50px;
-  padding-left: 90px;
+  padding-left: 180px;
   position: relative;
 }
 /* img {
@@ -79,7 +79,7 @@
   /* MID night party section */
 
   .party{
-    padding-left: 90px;
+    padding-left: 180px;
     padding-top: 69px;
     padding-bottom: 171px;
     position: relative;
@@ -137,7 +137,7 @@
     width: 1320px;
     border-radius: 16px;
     padding-top: 50px;
-    margin-left: 90px;
+    margin-left: 180px;
     padding-bottom: 120px;
 
   }
@@ -152,6 +152,7 @@
     color: red;
     font-size: 32px;
     font-weight: bold;
+    padding-top: 120px;
     
   }
 
@@ -177,3 +178,258 @@
 
   /* happy newe year section */
 
+  .new-year-offer {
+
+  display: flex;
+  justify-content: space-between;
+  padding-left: 180px;
+  /* padding-top: 120px; */
+  padding-right: 180px;
+  }
+
+.soon {
+
+ font-size: 48px;
+ font-weight: bold;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+
+ }
+
+ .desc {
+  font-size: 15px;
+  font-weight: lighter;
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+ .circle {
+
+  height: 380px;
+  width: 422px;
+  border: 10px solid red;
+  border-radius: 50%;
+  padding-top: 20px;
+  align-items: center;
+  
+  }
+
+  
+  .circle img {
+     padding-left: 30px; 
+     padding-bottom: 10px;
+     
+    
+
+  }
+
+  /* holiday sale section */
+
+  .sale-desc{
+    text-align: center;
+    padding-top: 120px;
+    font-family: "Merriweather";
+  }
+  .sale-desc h5{
+    font-size: 24px;
+    padding-bottom: 10px;
+
+  }
+  .sale-desc h2 {
+    font-size: 72px;
+  }
+
+  .sale-desc span {
+    font-size: 72px;
+  }
+
+  .sale-image {
+    display: flex;
+    position: absolute;
+    padding-top: 90px;
+  }
+ .discount-img{
+  height: 190px;
+  width: 200px;
+ padding-top: 80px;
+  position: absolute;
+  padding-left: 900px;
+
+ }
+ .gift{
+  position: absolute;
+  height: 229px;
+  width: 100px;
+  padding-left: 180px;
+  padding-top: 90px;
+ }
+ .rec-2{
+  height: 229px;
+  width: 1320px;
+  padding-left: 180px;
+  padding-top: 522px;
+
+ }
+
+ .girls-image{
+   
+  margin-left: 1071px;
+
+ }
+
+ /* portflio section */
+
+ .portfolio {
+
+  padding-top: 1000px;
+  padding-left: 180px;
+ }
+
+ .portfolio h5 {
+  color: red;
+  font-size: 24px;
+ }
+
+ .portfolio h2 {
+  font-size: 48px;
+  padding-top: 10px;
+ }
+
+ .image-portfolio {
+     display: flex;
+     justify-content: space-between;
+     padding-right: 180px;
+     padding-top: 48px;
+      
+ }
+
+ .image-portfolio-2 {
+  display: flex;
+     justify-content: space-between;
+     padding-right: 180px;
+     padding-top: 48px;
+     padding-bottom: 120px;
+
+ }
+
+
+ .subscription {
+  padding-top: 120px;
+  text-align: center;
+  
+ }
+
+ .subscription h2 {
+  font-size: 48px;
+  padding-top: 10px;
+ }
+ .subscription p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 10px;
+ }
+
+ /* .subscribe {
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 336px;
+  position: absolute;
+
+  text-align: center;
+  border-radius: 50px;
+  
+  height: 10px;
+  width: 648px;
+  
+  
+ } */
+ .subscribe {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+ .subscribe input {
+  border: none;
+  color: aliceblue;
+  height: 60px;
+  width: 500px;
+  border-radius: 50px;
+  position: absolute;
+  /* padding-left: 200px; */
+  margin-left: 100px;
+  padding-left: 30px;
+
+
+ }
+ .subscribe input::placeholder{
+   font-size: 18px;
+   padding-right: 1000px;
+ }
+
+
+ .button {
+  color: white;
+  border-radius: 0px 50px 50px 0px;
+  height: 60px;
+  width: 170px;
+  position: relative;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+
+  }
+
+  /* footer */
+
+  .footer {
+    background-color: black;
+    /* height: 609px; */
+    padding-top: 120px;
+    color: aliceblue;
+    padding-bottom: 5px;
+    margin: 0 auto; 
+  }
+  .footer-content{
+    display: flex; 
+     justify-content: space-between;
+
+  }
+ .footer p {
+  padding-left: 180px;
+ } 
+
+ .Call {
+  display: flex;
+  padding-right: 275px;
+  
+  
+ }
+ .Call p {
+  padding-left: 10px;
+ }
+
+ .social-media {
+  display: flex;
+ justify-content:space-between;
+ padding-left: 700px;
+ padding-right: 700px;
+
+ padding-top: 100px ;
+ 
+ 
+ }
+ .copyright {
+  margin-right: 140px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+ }
