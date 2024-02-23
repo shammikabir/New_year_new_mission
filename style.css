@@ -1,10 +1,10 @@
 * {
-  font-family: "Merriweather", serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   margin: 0;
   padding: 0;
 }
 
-
+/* header section */
 
 .container{
   background-color: linear-gradient(to bottom, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)),
@@ -27,6 +27,7 @@
   width: 1320px;
   height: 600px;
   position: absolute;
+  border-radius: 20px;
 }
 
 .title {
@@ -35,6 +36,7 @@
   padding-top: 187px;
   position: absolute;
   text-align: center;
+  font-family: "Merriweather", 'Times New Roman', Times, serif;
 
 }
 
@@ -43,3 +45,135 @@
   font-weight: 700;
   padding-top: 16px;
   }
+
+  /* discount section */
+
+  .discount {
+
+    margin-top: 116px;
+     padding-left: 600px; 
+     margin-bottom: 48px;
+     font-family: 'Times New Roman';
+   
+  }
+
+  .discount h1 {
+    margin-bottom: 32px;
+    font-size: 88px;
+    color: red;
+  }
+  .discount h6 {
+    color: red;
+    font-size: 23px;
+  }
+
+  .discount h4 {
+    font-size: 48px;
+    margin-top: 16px;
+  }
+
+  .discount-Section img {
+   padding-left: 420px;
+  }
+
+  /* MID night party section */
+
+  .party{
+    padding-left: 90px;
+    padding-top: 69px;
+    padding-bottom: 171px;
+    position: relative;
+   
+  }
+
+  .gradient-party {
+    background-image:  linear-gradient(to right, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0));
+    width: 1320px;
+    height: 600px;
+    position: absolute;
+    border-radius: 20px;
+
+  }
+
+  .gradient-party img {
+
+    padding-left: 920px;
+    padding-top: 60px;
+  }
+
+  .join {
+    position: absolute;
+    color:white;
+    text-align: left;
+  margin-left: 100px;
+ 
+  top: 25%;
+  margin-bottom:30px;
+  
+  }
+
+  .join h1{
+    font-size: 64px;
+    
+    
+  }
+
+  .join p {
+    font-size: 15px;
+    font-weight:lighter;
+    padding-top:24px;
+  }
+  .join-now{
+    padding-top: 24px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  /* location section */
+
+  .location {
+    background-image:  linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    height: 482px;
+    width: 1320px;
+    border-radius: 16px;
+    padding-top: 50px;
+    margin-left: 90px;
+    padding-bottom: 120px;
+
+  }
+  .location-details {
+    padding-left: 40px;
+    padding-top: 100px;
+    text-align: center;
+    
+    
+  }
+  .color {
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+    
+  }
+
+  .location p {
+    font-size: 32px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .btn {
+    
+    color: aliceblue;
+    background: red;
+    border-radius: 8px;
+    margin-top: 48px;
+    text-align: center;
+    width: 167px;
+    height: 56px;
+    border-style: none;
+    font-size: 20px;
+    
+  }
+
+  /* happy newe year section */
+
